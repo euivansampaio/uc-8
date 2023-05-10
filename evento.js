@@ -2,8 +2,9 @@
 let dataAtual =  new Date("2023-05-09");
 let dataDoEvento =  new Date("2023-05-12");
 let idadeParticipante = 20;
-let numDeParticipantes = 150;
+let listaDeParticipantes = ["Helena", "Chico", "Mário", "José", "Maria"];
 
+numDeParticipantes = listaDeParticipantes.length
 
 if (dataDoEvento > dataAtual){
    console.log('Evento permitido');
